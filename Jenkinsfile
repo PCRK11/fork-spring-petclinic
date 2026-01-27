@@ -13,7 +13,7 @@ pipeline {
     }
         tools{
         jdk "java-home-25"
-        maven "maven-home"
+        maven "Maven_3.9.12"
     }
     stages {
         stage('Git-Clone') {
