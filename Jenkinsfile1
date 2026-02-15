@@ -4,8 +4,8 @@ node {
     env.APP_NAME = "spring-petclinic"
 
     // --- Tools configuration ---
-    def JAVA_HOME = tool name: 'java-home-25', type: 'jdk'
-    def MAVEN_HOME = tool name: 'maven-home', type: 'maven'
+    def JAVA_HOME = tool name: 'java-home-21', type: 'jdk'
+    def MAVEN_HOME = tool name: 'Maven-home', type: 'maven'
     env.PATH = "${JAVA_HOME}/bin:${MAVEN_HOME}/bin:${env.PATH}"
 
     // --- Pipeline properties ---
