@@ -28,7 +28,7 @@ node {
 
             stage('Build and Package') {
                 echo "Building project using Maven..."
-                sh 'mvn package'
+                bat 'mvn package'
             }
 
             stage('Artifact Extraction') {
